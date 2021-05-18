@@ -97,7 +97,7 @@ export default function Example() {
                                 </div>
                             </div>
                             <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                                <button className="bg-white-800 p-1 rounded-full text-black-400 hover:text-teal-accent-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-accent-400 focus:ring-teal-accent-400">
+                                {/* <button className="bg-white-800 p-1 rounded-full text-black-400 hover:text-teal-accent-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-accent-400 focus:ring-teal-accent-400">
                                     <span className="sr-only">
                                         View notifications
                                     </span>
@@ -105,19 +105,19 @@ export default function Example() {
                                         className="h-6 w-6"
                                         aria-hidden="true"
                                     />
-                                </button>
+                                </button> */}
 
                                 {/* Profile dropdown */}
                                 <Menu as="div" className="ml-3 relative">
                                     {({ open }) => (
                                         <>
                                             <div>
-                                                <Menu.Button className="bg-gray-800 flex text-sm rounded focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-accent-400 focus:ring-white">
+                                                <Menu.Button className="bg-gray-800 flex text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-accent-400 focus:ring-white">
                                                     <span className="sr-only">
                                                         Open user menu
                                                     </span>
                                                     <img
-                                                        className="h-8 w-8 rounded"
+                                                        className="h-8 w-8 rounded-full"
                                                         src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
                                                         alt=""
                                                     />

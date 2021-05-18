@@ -16,6 +16,7 @@
         "axios": "^0.21.1",
         "dot-prop-immutable": "^2.1.0",
         "install": "^0.13.0",
+        "mongoose": "^5.12.9",
         "next": "10.2.0",
         "next-compose-plugins": "^2.2.1",
         "next-redux-wrapper": "^6.0.2",
